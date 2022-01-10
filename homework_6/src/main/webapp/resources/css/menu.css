@@ -1,0 +1,42 @@
+.container-nav {
+    background: #eff7fcf2;
+    padding: 13px;
+    border-radius: 15px;
+    margin: 0 5px 0 auto;
+    position: sticky;
+    top: 10px;
+}
+
+.navigation {
+    display: block;
+    width: 160px;
+    height: 175px;
+}
+
+ul {
+    padding: 10px;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    height: 28px;
+    padding-bottom: 7px;
+}
+
+a {
+    padding-right: 32px;
+    padding-left: 25px;
+    text-decoration: none;
+    line-height: 26px;
+    display: block;
+    height: 25px;
+    width: 66%;
+    color: black;
+}
+
+a:hover{
+    border-bottom: 2px solid rgb(52 39 106 / 32%);
+    border-radius: 15px;
+    background: rgb(182 191 222 / 32%)
+}
